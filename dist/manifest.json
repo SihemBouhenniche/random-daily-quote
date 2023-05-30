@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Simple Toggle Sites",
+  "version": "1.0.0",
+  "description": "A very basic extension to fetch a random quote every day.",
+  "permissions": ["storage"],
+  "host_permissions": ["https://zenquotes.io/"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "images/icon-16x16.png",
+      "48": "images/icon-48x48.png",
+      "128": "images/icon-128x128.png"
+    }
+  }
+}

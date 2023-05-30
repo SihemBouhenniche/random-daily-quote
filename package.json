@@ -4,12 +4,8 @@
   "version": "1.0.0",
   "description": "Fetch a random quote every day",
   "scripts": {
-    "local": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --env=local --config=node_modules/laravel-mix/setup/webpack.config.js",
-    "staging": "cross-env NODE_ENV=staging node_modules/webpack/bin/webpack.js --progress --env=staging --config=node_modules/laravel-mix/setup/webpack.config.js",
     "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --progress --env=production --config=node_modules/laravel-mix/setup/webpack.config.js",
-    "dev": "npm run local",
-    "prod": "npm run production",
-    "watch": "npm run local -- --watch"
+    "prod": "npm run production"
   },
   "dependencies": {
     "cross-env": "^7.0.3",
